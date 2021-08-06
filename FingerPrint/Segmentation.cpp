@@ -19,7 +19,7 @@ returnData create_segmented_and_variance_images(cv::Mat image, int w, double thr
 	int row = (image).rows;
 	int col = (image).cols;
 	threshold = stdOfImg(image) * threshold;
-	std::cout << threshold << " " << stdOfImg(image) << std::endl;
+
 	cv::Mat image_variance;
 	cv::Mat segmented_image;
 	(image).copyTo(segmented_image);
@@ -58,7 +58,6 @@ returnData create_segmented_and_variance_images(cv::Mat image, int w, double thr
 		}
 	}
 
-	std::cout << mask.size() << "  -  " << segmented_image.size() << std::endl;
 	image = normalise(image);
 	
 	double mean_val = 0.0;
