@@ -18,7 +18,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FingerPrint.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Normalization.cpp">
@@ -46,6 +46,9 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\..\..\Desktop\lotus.jpg">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="img_2.png">
       <Filter>Images</Filter>
     </Image>
   </ItemGroup>
