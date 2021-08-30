@@ -27,7 +27,7 @@ int main() {
 	double stdImg = stdOfImg(gray_image);
 	cv::Mat normalized = normalize(gray_image, 100, 100);
 
-	int block_size = 8;
+	int block_size = 16;
 	returnData data = create_segmented_and_variance_images(normalized, block_size, 0.2);
 	cv::Mat segmented_image = data.segmented_image;
 	cv::Mat norm_img = data.norm_img;

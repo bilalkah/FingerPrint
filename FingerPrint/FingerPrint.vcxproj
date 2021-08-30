@@ -145,12 +145,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Frequency.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Normalization.cpp" />
     <ClCompile Include="Orientation.cpp" />
     <ClCompile Include="Segmentation.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Frequency.h" />
     <ClInclude Include="Normalization.h" />
     <ClInclude Include="Orientation.h" />
     <ClInclude Include="resource.h" />

@@ -30,6 +30,9 @@
     <ClCompile Include="Orientation.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="Frequency.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Normalization.h">
@@ -42,6 +45,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Orientation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Frequency.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
